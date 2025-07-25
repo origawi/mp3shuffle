@@ -1,0 +1,4 @@
+github.com/tetratelabs/wazero v1.9.0 h1:IcZ56OuxrtaEz8UYNRHBrUa9bYeX9oVY93KspZZBf/I=
+github.com/tetratelabs/wazero v1.9.0/go.mod h1:TSbcXCfFP0L2FGkRPxHphadXPjo1T6W+CseNNY7EkjM=
+go.senan.xyz/taglib v0.7.2 h1:fsXdr7ZPTPzMkc9VbaNa8YdI1KvnUUFukuFYQmb4nFU=
+go.senan.xyz/taglib v0.7.2/go.mod h1:UMXxjvVuML3bZ63elOoUFtY2ZjwH88KB+DKWfF50ln8=
