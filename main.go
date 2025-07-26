@@ -43,12 +43,12 @@ func main() {
 
 		// Set track number to current index
 		err = taglib.WriteTags(file.Name(), map[string][]string{
-			taglib.TrackNumber: {fmt.Sprintf("%d", index)},
+			taglib.TrackNumber: {fmt.Sprintf("%d", index+1)},
 		}, 0)
 		if err != nil {
 			log.Fatalf("failed while setting tags of file '%s' with error: '%s'", file.Name(), err.Error())
 		}
 
-		fmt.Printf("Updated trackNumber of file '%s' from '%s' to '%d'\n", file.Name(), trackNumberBefore, index)
+		fmt.Printf("Updated trackNumber of file '%s' from '%s' to '%d'\n", file.Name(), trackNumberBefore, index+1)
 	}
 }
